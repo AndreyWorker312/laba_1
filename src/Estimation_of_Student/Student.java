@@ -17,13 +17,6 @@ public class Student {
         return (name + "//" + group + "//" + course + "//" + estimation);
     }
 
-    public void printStudents(List<Student> students, int course) {
-        for(Student student: students) {
-            if (student.course == course) {
-                System.out.println(student.name);
-            }
-        }
-    }
 
     private String name, group;
     private int course;
